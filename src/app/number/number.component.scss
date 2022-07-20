@@ -1,0 +1,84 @@
+
+// General Styles
+.container {
+    position: relative;
+    top: 5rem;
+    margin: auto;
+    width: 70%;
+}
+
+.base {
+    justify-content: center;
+    margin-top: 2vh;
+    // top: 5rem;
+    border: 3px solid black;
+    width: 60%;
+
+}
+
+// Display styling
+
+.mainDisplay {
+    background: lightblue;
+    height: 20vh;
+    padding: 5% !important;
+    font-size: 4rem;
+    text-align: right;
+    font-family: Helvetica, sans-serif;
+    overflow: auto;
+
+}
+
+.subDisplay {
+    border-bottom: 1px solid black;
+    height: 20%;
+    font-size: 2rem;
+    overflow: auto;
+
+}
+
+// Keypad Styling
+
+.keyPad {
+    height: calc(200% / 3);
+}
+
+.keys {
+    margin: 0;
+    height: 20%;
+    background: whitesmoke;
+    color: black;
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+
+.keys:hover {
+    opacity: 1;
+}
+
+.clearKey {
+    color: red;
+    background: lightblue;
+
+}
+
+.numKey {
+    color: coral;
+
+}
+
+.operatorKey {
+    color: white;
+    background-color: coral;
+
+}
+
+.equalKey {
+    color: white;
+    background-color: black;
+
+}

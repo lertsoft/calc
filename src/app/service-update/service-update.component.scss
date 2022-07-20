@@ -1,0 +1,20 @@
+h2 {
+    color: coral;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.clean {
+    color: lightblue;
+    background-color: lightcoral;
+    margin-bottom: 12px;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+
+}
+
+.clean:hover {
+    color: aqua;
+    background-color: lightsalmon;
+}

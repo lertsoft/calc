@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
 
+This project has some basic angular functions implemented such as:
+* Services
+* Components
+* Router
+
+Some Features to be added: 
+* Adding more calculation method. ie Square root, exponents, and others.
+* Saving on memory every time a client does a calculation
+
+Some bugs that needs to be fixed:
+* After getting a result, letting the client calculate from that result without deleting
+* Fix the service worker, so that it works as intended.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
