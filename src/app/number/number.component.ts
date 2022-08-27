@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { DataService } from '../data.service';
 
 @Component({
@@ -80,7 +81,7 @@ export class NumberComponent{
     } else {
       this.subText = 'Error: Invalid Operation';
     }
-     this.answers = true;
+    //  this.answers = true;
 
   }
 
